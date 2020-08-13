@@ -24,7 +24,7 @@ class DefectExtensionTest(unittest.TestCase):
         de = loadfn(defect_dir / "defect_entry.json")
         sd = SDefect(s, de)
         print(sd)
-        self.assertEqual(len(repr(sd)), 7563)
+        self.assertEqual(len(repr(sd)), 7462)
 
     def test_add_vacancy_to_structure(self):
         s = Structure.from_file(defect_dir / "CONTCAR-finish")
@@ -45,8 +45,8 @@ class DefectExtensionTest(unittest.TestCase):
         de = loadfn(defect_dir / "defect_entry.json")
         sd = SDefect(s, de)
         actual = defect_induced_displacement_vectors(sd, False)
-        expected = {1: [0.0113108196299976, 0.0110853199648275, 0.0113327449972189],
-                    9: [-0.010513423162045399, -0.010843906719273405, 0.0108738345850767],
-                    17: [-0.012579610890902898, 0.0126990021134645, -0.012064143215695794],
-                    25: [0.0101888816229305, -0.010303258081094696, -0.009900007203455602]}
+        expected = {1: [0.135544575238062, 0.1328422727231546, 0.13580732052833855],
+                    9: [-0.12598887820809024, -0.1299492678927452, 0.1303079120927934],
+                    17: [-0.15074928879118676, 0.1521800279487935, -0.14457211955231042],
+                    25: [0.1220996954162643, -0.12347033953810893, -0.11863793386708155]}
         self.assertEqual(actual, expected)

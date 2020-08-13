@@ -1,29 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a5e02cd-21f5-4625-b59f-bf9688cb1336" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/naokitsunoda.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cuivesta/test_legacy/test_utils/test_defect_extension.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cuivesta.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cuivesta.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4a5e02cd-21f5-4625-b59f-bf9688cb1336" name="Default Changelist" comment="Update defect_extension and unittests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cuivesta/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/cuivesta/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cuivesta/test/test_utils/Va_O1_2/CONTCAR" beforeDir="false" afterPath="$PROJECT_DIR$/cuivesta/test_legacy/test_utils/Va_O1_2/CONTCAR" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cuivesta/test/test_utils/Va_O1_2/CONTCAR.vesta" beforeDir="false" afterPath="$PROJECT_DIR$/cuivesta/test_legacy/test_utils/Va_O1_2/CONTCAR.vesta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cuivesta/test/test_utils/Va_O1_2/INCAR" beforeDir="false" afterPath="$PROJECT_DIR$/cuivesta/test_legacy/test_utils/Va_O1_2/INCAR" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cuivesta/test/test_utils/Va_O1_2/KPOINTS" beforeDir="false" afterPath="$PROJECT_DIR$/cuivesta/test_legacy/test_utils/Va_O1_2/KPOINTS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cuivesta/test/test_utils/Va_O1_2/OUTCAR" beforeDir="false" afterPath="$PROJECT_DIR$/cuivesta/test_legacy/test_utils/Va_O1_2/OUTCAR" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cuivesta/test/test_utils/Va_O1_2/POSCAR" beforeDir="false" afterPath="$PROJECT_DIR$/cuivesta/test_legacy/test_utils/Va_O1_2/POSCAR" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cuivesta/test/test_utils/Va_O1_2/PROCAR" beforeDir="false" afterPath="$PROJECT_DIR$/cuivesta/test_legacy/test_utils/Va_O1_2/PROCAR" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cuivesta/test/test_utils/Va_O1_2/correction.json" beforeDir="false" afterPath="$PROJECT_DIR$/cuivesta/test_legacy/test_utils/Va_O1_2/correction.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cuivesta/test/test_utils/Va_O1_2/defect.json" beforeDir="false" afterPath="$PROJECT_DIR$/cuivesta/test_legacy/test_utils/Va_O1_2/defect.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cuivesta/test/test_utils/Va_O1_2/defect_entry.json" beforeDir="false" afterPath="$PROJECT_DIR$/cuivesta/test_legacy/test_utils/Va_O1_2/defect_entry.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cuivesta/test/test_utils/Va_O1_2/dft_results.json" beforeDir="false" afterPath="$PROJECT_DIR$/cuivesta/test_legacy/test_utils/Va_O1_2/dft_results.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cuivesta/test/test_utils/Va_O1_2/potential.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/cuivesta/test_legacy/test_utils/Va_O1_2/potential.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cuivesta/test/test_utils/Va_O1_2/test.vesta" beforeDir="false" afterPath="$PROJECT_DIR$/cuivesta/test_legacy/test_utils/Va_O1_2/test.vesta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cuivesta/test/test_utils/Va_O1_2/vasprun.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cuivesta/test_legacy/test_utils/Va_O1_2/vasprun.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cuivesta/test/test_utils/test_defect_extension.py" beforeDir="false" afterPath="$PROJECT_DIR$/cuivesta/test/test_utils/test_defect_extension.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cuivesta/test_legacy/test_utils/test_defect_extension.py" beforeDir="false" afterPath="$PROJECT_DIR$/cuivesta/test_legacy/test_utils/test_defect_extension.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cuivesta/utils/defect_extension.py" beforeDir="false" afterPath="$PROJECT_DIR$/cuivesta/utils/defect_extension.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +39,22 @@
       <recent name="$PROJECT_DIR$/cuivesta/test_legacy/test_utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_defect_extension.py (1)">
+  <component name="RunManager" selected="Python tests.Unittests for test_defect_extension.DefectExtensionTest">
+    <configuration name="Unittests for test_defect_extension.DefectExtensionTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="cuivesta" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cuivesta/test_legacy/test_utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_defect_extension.DefectExtensionTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for test_defect_extension.DefectExtensionTest.test_defect_induced_displacement_vectors" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="cuivesta" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,7 +70,22 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_blocks.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_defect_extension.DefectExtensionTest.test_replace_dummy_to_xx" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="cuivesta" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cuivesta/test/test_utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_defect_extension.DefectExtensionTest.test_replace_dummy_to_xx&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="cuivesta" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,22 +96,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/cuivesta/test/test_blocks.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in test_defect_extension.py (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="cuivesta" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cuivesta/test_legacy/test_utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/cuivesta/test_legacy/test_utils/test_defect_extension.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/cuivesta/test&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -119,28 +115,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_func_tools.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="cuivesta" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cuivesta/test/test_utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/cuivesta/test/test_utils/test_func_tools.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in test_defect_extension.py (1)" />
-        <item itemvalue="Python tests.Unittests in test_blocks.py" />
+        <item itemvalue="Python tests.Unittests for test_defect_extension.DefectExtensionTest" />
+        <item itemvalue="Python tests.Unittests in test" />
         <item itemvalue="Python tests.Unittests in test_defect_extension.py" />
-        <item itemvalue="Python tests.Unittests in test_func_tools.py" />
         <item itemvalue="Python tests.Unittests for test_defect_extension.DefectExtensionTest.test_defect_induced_displacement_vectors" />
+        <item itemvalue="Python tests.Unittests for test_defect_extension.DefectExtensionTest.test_replace_dummy_to_xx" />
       </list>
     </recent_temporary>
   </component>
@@ -157,34 +138,64 @@
       <workItem from="1597301252097" duration="23000" />
       <workItem from="1597302216882" duration="550000" />
       <workItem from="1597303569051" duration="147000" />
-      <workItem from="1597303809764" duration="7326000" />
+      <workItem from="1597303809764" duration="7387000" />
+      <workItem from="1597314801219" duration="98000" />
+      <workItem from="1597315043234" duration="1345000" />
+      <workItem from="1597316481042" duration="1012000" />
+      <workItem from="1597317638806" duration="353000" />
+      <workItem from="1597318025413" duration="113000" />
     </task>
+    <task id="LOCAL-00001" summary="Update defect_extension and unittests">
+      <created>1597314781167</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597314781167</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update defect_extension and unittests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update defect_extension and unittests" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="100" y="84" width="1720" height="963" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1597314731738">
+    <state x="100" y="26" width="1720" height="1054" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1597317986782">
       <screen x="0" y="23" width="1920" height="987" />
     </state>
-    <state x="100" y="84" width="1720" height="963" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1920.987@0.23.1920.987" timestamp="1597314731738" />
-    <state width="1868" height="566" key="GridCell.Tab.0.bottom" timestamp="1597314626748">
+    <state x="100" y="26" width="1720" height="1054" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1597316031320" />
+    <state x="100" y="26" width="1720" height="1054" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1920.987@0.23.1920.987" timestamp="1597317986782" />
+    <state x="373" y="42" key="CommitChangelistDialog2" timestamp="1597316428096">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1868" height="566" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1597314626748" />
-    <state width="1868" height="566" key="GridCell.Tab.0.center" timestamp="1597314626746">
+    <state x="373" y="42" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1597316428096" />
+    <state width="1868" height="354" key="GridCell.Tab.0.bottom" timestamp="1597318176420">
+      <screen x="0" y="23" width="1920" height="987" />
+    </state>
+    <state width="1868" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1597317992215" />
+    <state width="1868" height="354" key="GridCell.Tab.0.bottom/0.23.1920.987@0.23.1920.987" timestamp="1597318176420" />
+    <state width="1868" height="354" key="GridCell.Tab.0.center" timestamp="1597318176418">
+      <screen x="0" y="23" width="1920" height="987" />
+    </state>
+    <state width="1868" height="210" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1597317992213" />
+    <state width="1868" height="354" key="GridCell.Tab.0.center/0.23.1920.987@0.23.1920.987" timestamp="1597318176418" />
+    <state width="1868" height="354" key="GridCell.Tab.0.left" timestamp="1597318176417">
+      <screen x="0" y="23" width="1920" height="987" />
+    </state>
+    <state width="1868" height="210" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1597317992210" />
+    <state width="1868" height="354" key="GridCell.Tab.0.left/0.23.1920.987@0.23.1920.987" timestamp="1597318176417" />
+    <state width="1868" height="354" key="GridCell.Tab.0.right" timestamp="1597318176419">
+      <screen x="0" y="23" width="1920" height="987" />
+    </state>
+    <state width="1868" height="210" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1597317992214" />
+    <state width="1868" height="354" key="GridCell.Tab.0.right/0.23.1920.987@0.23.1920.987" timestamp="1597318176419" />
+    <state x="460" y="217" key="Vcs.Push.Dialog.v2" timestamp="1597314748285">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1868" height="566" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1597314626746" />
-    <state width="1868" height="566" key="GridCell.Tab.0.left" timestamp="1597314626746">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1868" height="566" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1597314626746" />
-    <state width="1868" height="566" key="GridCell.Tab.0.right" timestamp="1597314626747">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1868" height="566" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1597314626747" />
+    <state x="460" y="217" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1597314748285" />
     <state x="100" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1597301274372">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -196,13 +207,16 @@
     <state x="100" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1920.987@0.23.1920.987" timestamp="1597307934487" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/cuivesta$Unittests_for_test_defect_extension_DefectExtensionTest_test_sdefect.coverage" NAME="Unittests for test_defect_extension.DefectExtensionTest.test_sdefect Coverage Results" MODIFIED="1597314071693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cuivesta/test/test_utils" />
     <SUITE FILE_PATH="coverage/cuivesta$Unittests_in_test_func_tools_py.coverage" NAME="Unittests in test_func_tools.py Coverage Results" MODIFIED="1597314496125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cuivesta/test/test_utils" />
-    <SUITE FILE_PATH="coverage/cuivesta$Unittests_in_test_defect_extension_py.coverage" NAME="Unittests in test_defect_extension.py Coverage Results" MODIFIED="1597314535570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cuivesta/test/test_utils" />
-    <SUITE FILE_PATH="coverage/cuivesta$Unittests_for_test_defect_extension_DefectExtensionTest_test_defect_induced_displacement_vectors.coverage" NAME="Unittests for test_defect_extension.DefectExtensionTest.test_defect_induced_displacement_vectors Coverage Results" MODIFIED="1597314464116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cuivesta/test/test_utils" />
+    <SUITE FILE_PATH="coverage/cuivesta$Unittests_for_test_defect_extension_DefectExtensionTest_test_sdefect.coverage" NAME="Unittests for test_defect_extension.DefectExtensionTest.test_sdefect Coverage Results" MODIFIED="1597317558406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cuivesta/test_legacy/test_utils" />
+    <SUITE FILE_PATH="coverage/cuivesta$Unittests_for_test_defect_extension_DefectExtensionTest_test_sdefect__1_.coverage" NAME="Unittests for test_defect_extension.DefectExtensionTest.test_sdefect (1) Coverage Results" MODIFIED="1597317875843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cuivesta/test/test_utils" />
+    <SUITE FILE_PATH="coverage/cuivesta$Unittests_in_test_defect_extension_py.coverage" NAME="Unittests in test_defect_extension.py Coverage Results" MODIFIED="1597317961995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cuivesta/test/test_utils" />
+    <SUITE FILE_PATH="coverage/cuivesta$Unittests_for_test_defect_extension_DefectExtensionTest_test_defect_induced_displacement_vectors.coverage" NAME="Unittests for test_defect_extension.DefectExtensionTest.test_defect_induced_displacement_vectors Coverage Results" MODIFIED="1597317955989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cuivesta/test/test_utils" />
     <SUITE FILE_PATH="coverage/cuivesta$Unittests_in_test_defect_extension_py__1_.coverage" NAME="Unittests in test_defect_extension.py (1) Coverage Results" MODIFIED="1597314585258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cuivesta/test_legacy/test_utils" />
-    <SUITE FILE_PATH="coverage/cuivesta$Unittests_for_test_defect_extension_DefectExtensionTest_test_replace_dummy_to_xx.coverage" NAME="Unittests for test_defect_extension.DefectExtensionTest.test_replace_dummy_to_xx Coverage Results" MODIFIED="1597314141914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cuivesta/test/test_utils" />
+    <SUITE FILE_PATH="coverage/cuivesta$Unittests_for_test_defect_extension_DefectExtensionTest.coverage" NAME="Unittests for test_defect_extension.DefectExtensionTest Coverage Results" MODIFIED="1597318040135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cuivesta/test_legacy/test_utils" />
+    <SUITE FILE_PATH="coverage/cuivesta$Unittests_for_test_defect_extension_DefectExtensionTest_test_replace_dummy_to_xx.coverage" NAME="Unittests for test_defect_extension.DefectExtensionTest.test_replace_dummy_to_xx Coverage Results" MODIFIED="1597317908362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cuivesta/test/test_utils" />
     <SUITE FILE_PATH="coverage/cuivesta$Unittests_in_test_blocks_py.coverage" NAME="Unittests in test_blocks.py Coverage Results" MODIFIED="1597314563425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cuivesta/test" />
-    <SUITE FILE_PATH="coverage/cuivesta$Unittests_for_test_defect_extension_DefectExtensionTest_test_add_vacancy_to_structure.coverage" NAME="Unittests for test_defect_extension.DefectExtensionTest.test_add_vacancy_to_structure Coverage Results" MODIFIED="1597314105137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cuivesta/test/test_utils" />
+    <SUITE FILE_PATH="coverage/cuivesta$Unittests_for_test_defect_extension_DefectExtensionTest_test_add_vacancy_to_structure.coverage" NAME="Unittests for test_defect_extension.DefectExtensionTest.test_add_vacancy_to_structure Coverage Results" MODIFIED="1597317903996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cuivesta/test/test_utils" />
+    <SUITE FILE_PATH="coverage/cuivesta$Unittests_in_test.coverage" NAME="Unittests in test Coverage Results" MODIFIED="1597317967696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cuivesta/test" />
   </component>
 </project>

@@ -24,7 +24,7 @@ class DefectExtensionTest(unittest.TestCase):
         de = loadfn(defect_dir / "defect_entry.json")
         sd = SDefect(s, de)
         print(sd)
-        self.assertEqual(len(repr(sd)), 13773)
+        self.assertEqual(len(repr(sd)), 5614)
 
     def test_add_vacancy_to_structure(self):
         s = Structure.from_file(defect_dir / "CONTCAR")

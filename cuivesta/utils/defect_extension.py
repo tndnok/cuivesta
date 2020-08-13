@@ -1,7 +1,11 @@
 # coding: utf-8
+from typing import Union
+
+import numpy as np
 
 from pymatgen.core.structure import Structure
 from monty.serialization import loadfn
+from pymatgen.util.coord import pbc_shortest_vectors
 
 try:
     from pydefect.core.defect_entry import DefectEntry
@@ -9,6 +13,32 @@ try:
 except ImportError:
     from pydefect.input_maker.defect_entry import DefectEntry
     _pydefect_version = "current"
+
+
+def get_displacements(final_structure: Structure,
+                      initial_structure: Structure,
+                      anchor_atom_index: int = None) -> list:
+    """
+    Note: this function is copied and modified
+          from legacy pydefect.util.structure_tool.py
+    """
+    if anchor_atom_index:
+        drift_frac_coords = final_structure[anchor_atom_index].frac_coords - \
+                             initial_structure[anchor_atom_index].frac_coords
+    else:
+        drift_frac_coords = np.zeros(3)
+
+    displacement_vectors = []
+    for final_site, initial_site in zip(final_structure, initial_structure):
+        displacement_vector, _ = \
+            pbc_shortest_vectors(lattice=initial_structure.lattice,
+                                 fcoords1=initial_site.frac_coords,
+                                 fcoords2=(final_site.frac_coords
+                                           - drift_frac_coords),
+                                 return_d2=True)
+        displacement_vectors.append(list(displacement_vector[0][0]))
+
+    return displacement_vectors
 
 
 class SDefect:
@@ -21,26 +51,28 @@ class SDefect:
                  final_structure: Structure,
                  defect_entry: DefectEntry):
         self.final_structure = final_structure
+        self.de = defect_entry
         if _pydefect_version == "legacy":
-            self._legacy_constructor(defect_entry)
+            self._legacy_constructor()
         elif _pydefect_version == "current":
-            self._current_constructor(defect_entry)
+            self._current_constructor()
 
-    def _legacy_constructor(self, de):
-        self.defect_center = de.defect_center_coords
-        self.neighboring_sites = de.neighboring_sites
-        displacement_vectors =\
-            self.final_structure.frac_coords - de.initial_structure.frac_coords
-        self.displacements = {key: val.tolist() for key, val in
-                              enumerate(displacement_vectors, 1)}
+    def _legacy_constructor(self):
+        self.defect_center = self.de.defect_center_coords
+        self.neighboring_sites = self.de.neighboring_sites
+        self.initial_structure = self.de.initial_structure
 
-    def _current_constructor(self, de):
-        self.defect_center = de.defect_center
-        self.neighboring_sites = de.perturbed_site_indices
-        displacement_vectors = \
-            self.final_structure.frac_coords - de.structure.frac_coords
-        self.displacements = {key: val.tolist() for key, val in
-                              enumerate(displacement_vectors, 1)}
+    def _current_constructor(self):
+        self.defect_center = self.de.defect_center
+        self.neighboring_sites = self.de.perturbed_site_indices
+        self.initial_structure = self.de.structure
+
+    @property
+    def displacements(self, anchor_atom_index=None):
+        disp_info = get_displacements(self.final_structure,
+                                      self.initial_structure,
+                                      anchor_atom_index)
+        return {key: val for key, val in enumerate(disp_info, 1)}
 
     @classmethod
     def from_defect_entry(cls, s: Structure, filename="defect_entry.json"):
