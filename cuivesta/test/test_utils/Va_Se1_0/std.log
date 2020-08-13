@@ -1,0 +1,18 @@
+2020/08/07 22:01:03    INFO        vise.user_settings
+ --> Setting file: /storage/imai/defect_tutorial_2020-08-07/MgSe/vise.yaml is parsed...
+/storage/imai/venv/lib/python3.7/site-packages/pymatgen/io/vasp/inputs.py:1857: UnknownPotcarWarning: POTCAR with symbol Mg has metadata that does not match                          any VASP POTCAR known to pymatgen. The data in this                          POTCAR is known to match the following functionals:                          ['unvie_PBE_52', 'PBE_54']
+  UnknownPotcarWarning)
+/storage/imai/venv/lib/python3.7/site-packages/pymatgen/io/vasp/inputs.py:1857: UnknownPotcarWarning: POTCAR with symbol Se has metadata that does not match                          any VASP POTCAR known to pymatgen. The data in this                          POTCAR is known to match the following functionals:                          ['unvie_PBE_52', 'PBE_54', 'PBE_52']
+  UnknownPotcarWarning)
+/storage/imai/venv/lib/python3.7/site-packages/pymatgen/io/vasp/inputs.py:1857: UnknownPotcarWarning: POTCAR with symbol Mg has metadata that does not match                          any VASP POTCAR known to pymatgen. The data in this                          POTCAR is known to match the following functionals:                          ['unvie_PBE_52', 'PBE_54']
+  UnknownPotcarWarning)
+/storage/imai/venv/lib/python3.7/site-packages/pymatgen/io/vasp/inputs.py:1857: UnknownPotcarWarning: POTCAR with symbol Se has metadata that does not match                          any VASP POTCAR known to pymatgen. The data in this                          POTCAR is known to match the following functionals:                          ['unvie_PBE_52', 'PBE_54', 'PBE_52']
+  UnknownPotcarWarning)
+/storage/imai/venv/lib/python3.7/site-packages/pymatgen/io/vasp/inputs.py:1857: UnknownPotcarWarning: POTCAR with symbol Mg has metadata that does not match                          any VASP POTCAR known to pymatgen. The data in this                          POTCAR is known to match the following functionals:                          ['unvie_PBE_52', 'PBE_54']
+  UnknownPotcarWarning)
+/storage/imai/venv/lib/python3.7/site-packages/pymatgen/io/vasp/inputs.py:1857: UnknownPotcarWarning: POTCAR with symbol Se has metadata that does not match                          any VASP POTCAR known to pymatgen. The data in this                          POTCAR is known to match the following functionals:                          ['unvie_PBE_52', 'PBE_54', 'PBE_52']
+  UnknownPotcarWarning)
+/storage/imai/venv/lib/python3.7/site-packages/pymatgen/io/vasp/inputs.py:1857: UnknownPotcarWarning: POTCAR with symbol Mg has metadata that does not match                          any VASP POTCAR known to pymatgen. The data in this                          POTCAR is known to match the following functionals:                          ['unvie_PBE_52', 'PBE_54']
+  UnknownPotcarWarning)
+/storage/imai/venv/lib/python3.7/site-packages/pymatgen/io/vasp/inputs.py:1857: UnknownPotcarWarning: POTCAR with symbol Se has metadata that does not match                          any VASP POTCAR known to pymatgen. The data in this                          POTCAR is known to match the following functionals:                          ['unvie_PBE_52', 'PBE_54', 'PBE_52']
+  UnknownPotcarWarning)

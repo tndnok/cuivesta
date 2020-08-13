@@ -1,0 +1,59 @@
+ running on   36 total cores
+ distrk:  each k-point on   36 cores,    1 groups
+ distr:  one band on    1 cores,   36 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 08 2019 15:19:53) gamma-only       
+  
+ POSCAR found type information on POSCAR  Mg Se
+ POSCAR found :  2 types and      63 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default,   NCORE=1            might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ WARNING: random wavefunctions but no delay for mixing, default for NELMDL
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.102887919464E+04    0.10289E+04   -0.61216E+04   864   0.473E+02
+DAV:   2    -0.116654720480E+03   -0.11455E+04   -0.10827E+04  1224   0.130E+02
+DAV:   3    -0.227917681170E+03   -0.11126E+03   -0.11069E+03  1152   0.424E+01
+DAV:   4    -0.229516756380E+03   -0.15991E+01   -0.15978E+01  1116   0.609E+00
+DAV:   5    -0.229530270994E+03   -0.13515E-01   -0.13513E-01  1080   0.577E-01    0.266E+01
+DAV:   6    -0.208341774678E+03    0.21188E+02   -0.45278E+01   864   0.882E+00    0.154E+01
+DAV:   7    -0.227144113542E+03   -0.18802E+02   -0.22947E+01  1008   0.569E+00    0.911E+00
+DAV:   8    -0.231528521335E+03   -0.43844E+01   -0.52343E+00   900   0.304E+00    0.519E+00
+DAV:   9    -0.232387765351E+03   -0.85924E+00   -0.10244E+00  1044   0.134E+00    0.106E+00
+DAV:  10    -0.232472740416E+03   -0.84975E-01   -0.11762E-01  1116   0.515E-01    0.709E-01
+DAV:  11    -0.232481244715E+03   -0.85043E-02   -0.49434E-03  1080   0.118E-01    0.441E-01
+DAV:  12    -0.232491786442E+03   -0.10542E-01   -0.76026E-03   972   0.121E-01    0.140E-01
+DAV:  13    -0.232493277578E+03   -0.14911E-02   -0.17138E-03  1080   0.595E-02    0.368E-02
+DAV:  14    -0.232493344563E+03   -0.66985E-04   -0.63721E-05  1152   0.127E-02    0.194E-02
+DAV:  15    -0.232493408877E+03   -0.64315E-04   -0.57706E-05  1008   0.105E-02    0.892E-03
+DAV:  16    -0.232493417420E+03   -0.85427E-05   -0.50298E-06   936   0.355E-03
+   1 F= -.23249342E+03 E0= -.23249342E+03  d E =-.232493E+03  mag=    -0.0037
+ curvature:   0.00 expect dE= 0.000E+00 dE for cont linesearch  0.000E+00
+ trial: gam= 0.00000 g(F)=  0.479E-03 g(S)=  0.000E+00 ort = 0.000E+00 (trialstep = 0.100E+01)
+ search vector abs. value=  0.479E-03
+ reached required accuracy - stopping structural energy minimisation

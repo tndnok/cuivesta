@@ -1,0 +1,42 @@
+[
+    {
+        "job": {
+            "@module": "ace.custodian.job",
+            "@class": "VaspJob",
+            "@version": null,
+            "vasp_cmd": [
+                "mpirun",
+                "-n",
+                "36",
+                "/storage/common_new/bin/vasp_gam"
+            ]
+        },
+        "corrections": [],
+        "handler": null,
+        "validator": null,
+        "max_errors": false,
+        "max_errors_per_job": false,
+        "max_errors_per_handler": false,
+        "nonzero_return_code": false
+    },
+    {
+        "job": {
+            "@module": "ace.custodian.job",
+            "@class": "VaspJob",
+            "@version": null,
+            "vasp_cmd": [
+                "mpirun",
+                "-n",
+                "36",
+                "/storage/common_new/bin/vasp_gam"
+            ]
+        },
+        "corrections": [],
+        "handler": null,
+        "validator": null,
+        "max_errors": false,
+        "max_errors_per_job": false,
+        "max_errors_per_handler": false,
+        "nonzero_return_code": false
+    }
+]

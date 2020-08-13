@@ -74,16 +74,6 @@ parser.add_argument(
 #               "atoms": args.atoms}
 
 
-def load_defect(structure: Structure):
-    try:
-        defect = dex.defect_loader()
-    except FileNotFoundError:
-        print(f"<vesta_io>: defect.json is not found, "
-              f"so try to read defect_entry.json")
-        defect = dex.defect_entry_loader(structure)
-    return defect
-
-
 # WRITE *.vesta
 def main():
     args = parser.parse_args()
@@ -106,15 +96,15 @@ def main():
     # defect extension
     defect = None
     if args.defect:
-        defect = load_defect(s)
+        defect = dex.SDefect.from_defect_entry(s)
         vectors_dict = dex.defect_induced_displacement_vectors(defect,
                                                                args.all_sites)
     if args.vacancy:
-        if not defect:
-            defect = load_defect(s)
+        if defect is None:
+            defect = dex.SDefect.from_defect_entry(s)
         if isinstance(defect.defect_center, int):
             raise TypeError("defect is not vacancy")
-        dex.add_vacancy_to_structure(s, defect)
+        dex.add_vacancy_to_structure(s, defect.defect_center)
 
     # plane
     plane_list = None

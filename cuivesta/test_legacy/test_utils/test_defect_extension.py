@@ -15,19 +15,19 @@ from cuivesta.utils.defect_extension import (SDefect,
 
 parent_dir = Path(__file__).parent
 
-defect_dir = parent_dir / "Va_Se1_0"
+defect_dir = parent_dir / "Va_O1_2"
 
 
 class DefectExtensionTest(unittest.TestCase):
     def test_sdefect(self):
-        s = Structure.from_file(defect_dir / "CONTCAR-finish")
+        s = Structure.from_file(defect_dir / "CONTCAR")
         de = loadfn(defect_dir / "defect_entry.json")
         sd = SDefect(s, de)
         print(sd)
-        self.assertEqual(len(repr(sd)), 7563)
+        self.assertEqual(len(repr(sd)), 13773)
 
     def test_add_vacancy_to_structure(self):
-        s = Structure.from_file(defect_dir / "CONTCAR-finish")
+        s = Structure.from_file(defect_dir / "CONTCAR")
         s_copy = copy.deepcopy(s)
         de = loadfn(defect_dir / "defect_entry.json")
         sd = SDefect(s, de)
@@ -41,12 +41,14 @@ class DefectExtensionTest(unittest.TestCase):
         self.assertEqual(after_replace, expected)
 
     def test_defect_induced_displacement_vectors(self):
-        s = Structure.from_file(defect_dir / "CONTCAR-finish")
+        s = Structure.from_file(defect_dir / "CONTCAR")
         de = loadfn(defect_dir / "defect_entry.json")
         sd = SDefect(s, de)
         actual = defect_induced_displacement_vectors(sd, False)
-        expected = {1: [0.0113108196299976, 0.0110853199648275, 0.0113327449972189],
-                    9: [-0.010513423162045399, -0.010843906719273405, 0.0108738345850767],
-                    17: [-0.012579610890902898, 0.0126990021134645, -0.012064143215695794],
-                    25: [0.0101888816229305, -0.010303258081094696, -0.009900007203455602]}
+        expected = {1: [-0.16518775913396233, 0.0, 0.0],
+                    5: [0.16518775913396233, 0.0, 0.0],
+                    17: [0.0, 0.0, 0.16518775913396233],
+                    18: [0.0, 0.0, -0.16518775913396233],
+                    25: [0.0, 0.16518775913396233, 0.0],
+                    27: [0.0, -0.16518775913396233, 0.0]}
         self.assertEqual(actual, expected)
