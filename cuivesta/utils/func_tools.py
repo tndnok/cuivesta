@@ -114,5 +114,10 @@ def boundary_option_preparse(sys_arg: str,
         return np.array(base_boundary) * float(Fraction(boundary[0]))
 
 
-
+def add_dummy_to_structure(s: Structure, dummy_position: list) -> Structure:
+    """ Load atomic coordinates: [x.xx(float), x.xx. x.xx] """
+    # vacancy_notation = " XX"
+    dummy_notation = "X"  # will be interpreted as dummy specie "X0+"
+    s.append(dummy_notation, dummy_position)
+    return s
 

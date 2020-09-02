@@ -18,7 +18,7 @@ from cuivesta.utils.func_tools import (
     plane_option_parse,
     vector_option_parse,
     centering_atom,
-    boundary_option_preparse)
+    boundary_option_preparse, add_dummy_to_structure)
 
 # command line option
 parser = argparse.ArgumentParser()
@@ -68,6 +68,9 @@ parser.add_argument(
 parser.add_argument(
     "-f", "--filename", type=str, default=None,
     help="output file name.", metavar="FILE")
+parser.add_argument(
+    "--adx", type=str, default=None,
+    help="add dummy specie.")
 # args = parser.parse_args()
 
 # style_dict = {"amplitude": args.amplitude,
@@ -128,8 +131,13 @@ def main():
         shift = np.array([0, 0, 0, 0, 0, 0])
     boundary = boundary + shift
 
+    # adx
+    if args.adx:
+        adx_coord = [float(_) for _ in args.adx.split()]
+        add_dummy_to_structure(s, adx_coord)
+
     # misc
-    amplitude = args.amplitude * ((s.volume/s.num_sites)**1/3)
+    amplitude = args.amplitude * ((s.volume/s.num_sites)**1/3) * 1/10
     style_dict = {"amplitude": amplitude,
                   "atoms": args.atoms}
 
