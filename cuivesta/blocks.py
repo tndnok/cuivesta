@@ -8,8 +8,8 @@ from typing import Union, Optional, List
 
 from pymatgen.core.structure import Structure
 
-# from cuivesta.template.vesta.sbond_default_dict import sbond_default_dict
-from cuivesta.template.vesta.sbond_middle_dict import sbond_middle_dict
+from cuivesta.template.vesta.sbond_default_dict import sbond_default_dict
+# from cuivesta.template.vesta.sbond_middle_dict import sbond_middle_dict
 # from cuivesta.template.vesta.sbond_large_dict import sbond_large_dict
 from cuivesta.utils.func_tools import (val_to_str_line,
                                        structure_to_dict_for_vesta)
@@ -207,9 +207,9 @@ class SBond:
         visible_bonds = []
         _idx = 1
         for _key in self.pairs_of_bond:
-            if _key in sbond_middle_dict:
+            if _key in sbond_default_dict:
                 visible_bond = f'{_idx} {_key[0]} {_key[1]} ' \
-                               f'{sbond_middle_dict[_key]}'
+                               f'{sbond_default_dict[_key]}'
                 visible_bonds.append(visible_bond)  # + '\n'
                 _idx += 1
         str_visible_bonds = '\n'.join(visible_bonds)
